@@ -1,0 +1,10 @@
+.cart{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+@media(max-width:780px){
+   .cart{
+    grid-template-columns:1fr;
+   }
+}

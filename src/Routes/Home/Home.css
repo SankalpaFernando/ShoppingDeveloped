@@ -1,0 +1,11 @@
+.panel{
+    display:grid;
+    grid-template-columns: 20% 70%;
+    column-gap:10%;
+}
+
+@media (max-width:780px){
+    .panel{
+        grid-template-columns:1fr;
+    }
+}

@@ -1,0 +1,23 @@
+.cart-total {
+  display: grid;
+  grid-template-columns: 15fr 1fr 5fr 2fr;
+  width: 90%;
+  margin: 1em auto;
+  background-color: #fff;
+  border-radius: 0.4em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cart-total p {
+  margin: 1em;
+}
+.total-cart {
+  margin: 1em 0 1em 1em;
+}
+
+.total-btn-cart{
+ height: 3em;
+ width: 60%;
+ margin: auto;
+ border: 0;
+ 
+}

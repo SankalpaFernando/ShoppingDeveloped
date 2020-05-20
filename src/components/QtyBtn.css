@@ -1,0 +1,13 @@
+.qty-btn-group{
+    width: 60%;
+    margin:2em auto 0 15%;
+}
+*{
+    box-sizing: border-box;
+}
+@media(max-width:780px){
+    .qty-btn-group{
+        width: 100%;
+        margin: 2em 0;
+    }
+}

@@ -1,0 +1,10 @@
+.item-panel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width:780px){
+    .item-panel{
+        grid-template-columns:1fr;
+    }
+}
